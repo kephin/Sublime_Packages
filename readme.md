@@ -1,12 +1,13 @@
 #About Sublime Text 3
 
-:mag: 主要的內容是介紹熱門、實用的Packages
+:mag: 主要的內容是介紹熱門、實用的Packages，與快捷鍵
 
 |#|Catalog|
 |---|---|
 |1|[Installation](#installation)|
 |2|[Basic Operation](#basic-operation)|
 |3|[Recommended Packages](#recommended-packages)|
+|4|[Hot Keys](#hot-keys)|
 
 ###Installation:
 1. [Pakage control](https://packagecontrol.io/installation)
@@ -14,7 +15,7 @@
 
 ###Basic Operation:
 1. Save:  `ctrl+ s`
-2. Command:  `ctrl+ /`
+2. Comment:  `ctrl+ /`
 3. Undo: `ctrl+ z`
 4. Redo: `ctrl+ shift+ z`
 
@@ -74,3 +75,86 @@
   |Nodejs|node snippets and bindings|
   |Vue Syntax Hightlight|Vue syntax|
   |Pug|Pug syntax|
+
+###Hot Keys:
+1. Goto Anything (Navigation)
+
+  |Description|hot key|
+  |---|---|
+  |Goto Anything|`Ctrl + P`|
+  |Goto Symbol|`Ctrl + R`|
+  |Goto Line|`Ctrl + G`|
+
+2. Editing text
+
+  |Description|hot key|
+  |---|---|
+  |Insert line before / after|`Ctrl + Shift + Return` / `Ctrl + Return`|
+  |Copy line / Paste from history|`Ctrl + C` / `Ctrl + K, Ctrl + V`|
+  |Delete to beginning / end|`Ctrl + Shift + Backspace` / `Ctrl + K`|
+  |Delete / Cut a line|`Ctrl + Shift + K` / `Ctrl + X`|
+  |Soft Undo / Redo|`Ctrl + U` / `Ctrl + Shift + U`|
+  |Upper / lower case|`Ctrl + K, Ctrl + U` / `Ctrl + K, Ctrl + L`|
+  |Joining Lines|`Ctrl + J`|
+  |Bubble the line up / down|`Ctrl + Shift + up` / `Ctrl + Shift + down`|
+  |Sort a line|`F9`|
+  |Duplicating a line|`Ctrl + Shift + D`|
+  |Indent - Unindent|`Ctrl + ]`, `Ctrl + [`|
+  |Commenting a line / multiple lines|`Ctrl + /` / `Ctrl + Shift + /`|
+  |Close HTML tag|`Alt + .`|
+  |Wrap line at ruler|`Alt + Q`|
+  |Transpose|`Ctrl + T`|
+3. Selection
+
+  |Description|hot key|
+  |---|---|
+  |Multiple selection|`Ctrl + clicks at multiple places`|
+  |Column Selection|`Ctrl + Alt + (up|down)` or `Shift + right-click` / `Esc` for going back to single|
+  |Split block of selection into multiple lines|`Ctrl + Shift + L`|
+  |Select word with multiple occurrences|`Ctrl + D`, *Pro-tip*: select the initial word using the `Ctrl + D` shortcut. This switches the matching from fuzzy matching to word boundary matching|
+  |Quick skip|`Ctrl + K`|
+  |Selecting a line|`Ctrl + L`|
+  |Expand selection to brackets|`Ctrl + Shift + M`|
+  |Expand selection to indentation|`Ctrl + Shift + J`|
+  |Expand selection to scope|`Ctrl + Shift + Space`
+  |Select digit|`Shift + (up|down|left|right)`|
+  |Select words|`Ctrl + Shift + left` / `Ctrl + Shift + right`|
+4. Navigation
+
+  |Description|hot key|
+  |---|---|
+  |Goto symbol in project|`Ctrl + Shift + R`|
+  |Goto definition|`F12`|
+  |Goto beginning / end of a line|`Home` / `End`|
+  |Goto matching bracket|`Ctrl + M`|
+  |Move back / forward in history|`Alt + -` / `Alt + Shift + -`|
+  |Code fold / unfold|`Ctrl + Shift + [` / `Ctrl + Shift + ]`|
+5. Find
+
+  |Category|Description|hot key|
+  |---|---|---|
+  |**Find**|Find|`Ctrl + F`|
+  ||Find next|`F3`|
+  ||Find previous|`Shift + F3`|
+  ||Find all|`Alt + Return` (while find window is open)|
+  ||Use selection to find|`Ctrl + E`|
+  |**Incremental find**|Incremental find|`Ctrl + I`|
+  ||Incremental find previous|`Ctrl + Shift + I`|
+  ||Find all with incremental find|`Alt + Return` (while the panel is open)|
+  |**Replace**|Replace panel|`Ctrl + H`|
+  ||Replace next|`Ctrl + Shift + H`|
+  ||Replace all|`Ctrl + Alt + Return` (Only when replace panel is open)|
+  ||Add selection to replace|`Ctrl + Shift + E`|
+  |**Quick find**|Quick find|`Ctrl + F3`|
+  ||Quick find previous|`Ctrl + Shift + F3`|
+  ||Quick find all|`Alt + F3`|
+  |**Find in project**|Find in project|`Ctrl + Shift + F`|
+
+6. Others
+
+  |Description|hot key|
+  |---|---|
+  |Opening User settings|`^ + ,`|
+  |Python Console|`^ + Backticks` / `Ctrl + Backticks`|
+  |Command Palette|`Ctrl + Shift + P`|
+  
