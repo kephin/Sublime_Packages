@@ -1,4 +1,4 @@
-#About Sublime Text 3
+# About Sublime Text 3
 
 :mag: 主要的內容是介紹熱門、實用的Packages，與快捷鍵
 
@@ -9,18 +9,21 @@
 |3|[Recommended Packages](#recommended-packages)|
 |4|[Hot Keys](#hot-keys)|
 
-###Installation:
-1. [Pakage control](https://packagecontrol.io/installation)
-2. [Node](https://nodejs.org/en/) (with npm)
+### Installation:
 
-###Basic Operation:
-1. Save:  `ctrl+ s`
-2. Comment:  `ctrl+ /`
-3. Undo: `ctrl+ z`
-4. Redo: `ctrl+ shift+ z`
++ [Pakage control](https://packagecontrol.io/installation)
++ [Node](https://nodejs.org/en/) (with npm)
 
-###Recommended Packages:
-1. General use
+### Basic Operation:
+
++ Save:  `ctrl+ s`
++ Comment:  `ctrl+ /`
++ Undo: `ctrl+ z`
++ Redo: `ctrl+ shift+ z`
+
+### Recommended Packages:
+
++ General use
 
   |Packages|Description / How to use|
   |---|---|
@@ -47,13 +50,14 @@
   |Terminal|快捷鍵開啟Terminal，`ctrl + shift + t`|
   |TrailingSpacers|刪除多於空白|
 
-2. For HTML
++ For HTML
 
   |Packages|Description / How to use|
   |---|---|
   |Emmet|Snippets|
   |HTML5|HTML syntax|
-3. For CSS
+
++ For CSS
 
   |Packages|Description / How to use|
   |---|---|
@@ -63,7 +67,8 @@
   |CSScomb|CSS coding style formatter|
   |Sass|Sass syntax|
   |SCSS|SCSS syntax|
-3. For JavaScript
+
++ For JavaScript
 
   |Packages|Description / How to use|
   |---|---|
@@ -76,8 +81,8 @@
   |Vue Syntax Hightlight|Vue syntax|
   |Pug|Pug syntax|
 
-###Hot Keys:
-1. Goto Anything (Navigation)
+### Hot Keys:
++ Goto Anything (Navigation)
 
   |Description|hot key|
   |---|---|
@@ -85,7 +90,7 @@
   |Goto Symbol|`Ctrl + R`|
   |Goto Line|`Ctrl + G`|
 
-2. Editing text
++ Editing text
 
   |Description|hot key|
   |---|---|
@@ -104,7 +109,8 @@
   |Close HTML tag|`Alt + .`|
   |Wrap line at ruler|`Alt + Q`|
   |Transpose|`Ctrl + T`|
-3. Selection
+
++ Selection
 
   |Description|hot key|
   |---|---|
@@ -119,7 +125,8 @@
   |Expand selection to scope|`Ctrl + Shift + Space`
   |Select digit|`Shift + (up|down|left|right)`|
   |Select words|`Ctrl + Shift + left` / `Ctrl + Shift + right`|
-4. Navigation
+
++ Navigation
 
   |Description|hot key|
   |---|---|
@@ -129,28 +136,29 @@
   |Goto matching bracket|`Ctrl + M`|
   |Move back / forward in history|`Alt + -` / `Alt + Shift + -`|
   |Code fold / unfold|`Ctrl + Shift + [` / `Ctrl + Shift + ]`|
-5. Find
+
++ Find
 
   |Category|Description|hot key|
   |---|---|---|
   |**Find**|Find|`Ctrl + F`|
-  ||Find next|`F3`|
-  ||Find previous|`Shift + F3`|
-  ||Find all|`Alt + Return` (while find window is open)|
-  ||Use selection to find|`Ctrl + E`|
+  | |Find next|`F3`|
+  | |Find previous|`Shift + F3`|
+  | |Find all|`Alt + Return` (while find window is open)|
+  | |Use selection to find|`Ctrl + E`|
   |**Incremental find**|Incremental find|`Ctrl + I`|
-  ||Incremental find previous|`Ctrl + Shift + I`|
-  ||Find all with incremental find|`Alt + Return` (while the panel is open)|
+  | |Incremental find previous|`Ctrl + Shift + I`|
+  | |Find all with incremental find|`Alt + Return` (while the panel is open)|
   |**Replace**|Replace panel|`Ctrl + H`|
-  ||Replace next|`Ctrl + Shift + H`|
-  ||Replace all|`Ctrl + Alt + Return` (Only when replace panel is open)|
-  ||Add selection to replace|`Ctrl + Shift + E`|
+  | |Replace next|`Ctrl + Shift + H`|
+  | |Replace all|`Ctrl + Alt + Return` (Only when replace panel is open)|
+  | |Add selection to replace|`Ctrl + Shift + E`|
   |**Quick find**|Quick find|`Ctrl + F3`|
-  ||Quick find previous|`Ctrl + Shift + F3`|
-  ||Quick find all|`Alt + F3`|
+  | |Quick find previous|`Ctrl + Shift + F3`|
+  | |Quick find all|`Alt + F3`|
   |**Find in project**|Find in project|`Ctrl + Shift + F`|
 
-6. Others
++ Others
 
   |Description|hot key|
   |---|---|
